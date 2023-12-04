@@ -21,6 +21,11 @@ export default function Home() {
             Double data
           </Link>
         </li>
+        <li>
+          <Link className="text-blue-600" href="/tree-rerender">
+            Tree rerender
+          </Link>
+        </li>
       </ul>
     </main>
   );
