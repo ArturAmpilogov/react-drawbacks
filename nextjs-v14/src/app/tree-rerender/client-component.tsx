@@ -9,11 +9,12 @@ export default function ClientComponent({}) {
   const [value, setValue] = useState("");
   return (
     <div className="flex flex-col gap-4">
+      <p>Open the devtools console</p>
       <input
         className="border border-gray-400 rounded-md p-2 max-w-[300px]"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="Type something and open the devtools console"
+        placeholder="Type something"
       />
 
       <Table>
