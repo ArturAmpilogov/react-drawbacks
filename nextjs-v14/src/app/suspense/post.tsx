@@ -13,7 +13,7 @@ async function getPost() {
   };
 }
 
-export default async function Post() {
+export default async function SuspensePage() {
   const post = await getPost();
 
   return (
