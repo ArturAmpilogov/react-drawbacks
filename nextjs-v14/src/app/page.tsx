@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen p-8">
-      <h1 className="text-4xl mb-10">Demo</h1>
+      <h1 className="text-4xl mb-6">Demo</h1>
 
       <ul className="list-disc list-outside ml-6 space-y-4">
         <li>
