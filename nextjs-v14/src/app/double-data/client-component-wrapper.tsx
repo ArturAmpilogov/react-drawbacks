@@ -9,7 +9,7 @@ export default function ClientComponentWrapper({
   return (
     <div className="flex flex-col gap-4">
       <button
-        className="bg-yellow-300 px-4 py-2"
+        className="bg-yellow-300 px-6 py-2 w-fit"
         onClick={() => setVisible((prev) => !prev)}
       >
         Toggle visibility

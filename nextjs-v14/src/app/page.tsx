@@ -5,9 +5,9 @@ export default function Home() {
     <main className="min-h-screen p-8">
       <h1 className="text-4xl mb-10">Demo</h1>
 
-      <ul className="list-disc list-outside ml-6">
+      <ul className="list-disc list-outside ml-6 space-y-4">
         <li>
-          <Link className="text-blue-600" href="/suspense">
+          <Link className="text-blue-600 underline" href="/suspense">
             Suspense
           </Link>
           <p className="my-2 text-sm text-gray-800">
@@ -17,12 +17,12 @@ export default function Home() {
           </p>
         </li>
         <li>
-          <Link className="text-blue-600" href="/double-data">
+          <Link className="text-blue-600 underline" href="/double-data">
             Double data
           </Link>
         </li>
         <li>
-          <Link className="text-blue-600" href="/tree-rerender">
+          <Link className="text-blue-600 underline" href="/tree-rerender">
             Tree rerender
           </Link>
         </li>
