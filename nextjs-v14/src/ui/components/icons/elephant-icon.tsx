@@ -14,8 +14,8 @@ export default function ElephantIcon({
       viewBox="0 0 508 508"
       width={width}
       height={height}
-      fill="none"
       className={className}
+      fill="none"
     >
       <circle fill="#FFD05B" cx="254" cy="254" r="254" />
       <path

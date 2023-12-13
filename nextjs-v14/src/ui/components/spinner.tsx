@@ -1,5 +1,5 @@
-import ElephantIcon from "./icons/elephant-icon";
+import ReactIcon from "./icons/react-icon";
 
 export default function Spinner() {
-  return <ElephantIcon className="animate-spin mx-auto" width={128} height={128} />;
+  return <ReactIcon className="animate-spin mx-auto" width={128} height={128} />;
 }

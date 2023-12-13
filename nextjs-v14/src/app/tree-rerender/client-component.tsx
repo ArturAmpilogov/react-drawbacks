@@ -9,7 +9,11 @@ export default function ClientComponent({}) {
   const [value, setValue] = useState("");
   return (
     <div className="flex flex-col gap-4">
-      <p>Open the devtools console</p>
+      <p>
+        Open the devtools console, <br />
+        Type something in the input below, and see how many times components are
+        re-rendered.
+      </p>
       <input
         className="border border-gray-400 rounded-md p-2 max-w-[300px]"
         value={value}
